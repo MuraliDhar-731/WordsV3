@@ -2,7 +2,7 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
 import pandas as pd
-from backend.online_model import predict_difficulty, update_model
+from online_model import predict_difficulty, update_model
 
 app = FastAPI()
 
